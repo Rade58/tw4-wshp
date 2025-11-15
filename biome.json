@@ -20,13 +20,8 @@
 			"react": "recommended"
 		}
 	},
-	"javascript": {
-		"formatter": {
-			"quoteStyle": "double"
-		}
-	},
 	"assist": {
-		"enabled": true,
+		"enabled": false,
 		"actions": {
 			"source": {
 				"organizeImports": "on"
