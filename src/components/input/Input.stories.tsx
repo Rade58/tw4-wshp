@@ -91,7 +91,9 @@ type Story = StoryObj<typeof meta>;
 
 //
 export const Text_Input: Story = {
-  args: {},
+  args: {
+    label: "Input Label",
+  },
 };
 
 export const Required: Story = {
