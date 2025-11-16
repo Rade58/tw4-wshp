@@ -1,6 +1,6 @@
 # Tailwind 4 workshop project
 
-Based on this [workshop](https://stevekinney.com/courses/tailwind) and [vite svelte app](https://github.com/stevekinney/tailwind-skatepark#), but I decided not to use svelte, I'm using react instead
+Based on this [course](https://stevekinney.com/courses/tailwind) (RELLY GOOD, so I encorage you to buy it) and [vite svelte app](https://github.com/stevekinney/tailwind-skatepark#), but I decided not to use svelte, I'm using react instead
 
 This is a react vite app where I added [storybook](https://storybook.js.org/docs#install-storybook)
 

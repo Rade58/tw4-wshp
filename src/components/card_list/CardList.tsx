@@ -5,7 +5,7 @@ type Props = PropsWithChildren;
 
 export function CardList(_props: Props) {
   return (
-    <div>
+    <div className="space-y-2 p-8">
       <Card
         title="Card Title"
         description="This is a description you filthy animal."
