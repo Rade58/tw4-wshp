@@ -1,16 +1,16 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-import { RadioInputs } from "./Three";
+import { CoupleInputs } from "./Five";
 
 const meta = {
-  title: "2 :has chalenges/3",
-  component: RadioInputs,
+  title: "2 :has chalenges/5",
+  component: CoupleInputs,
 
   argTypes: {},
   // ------------------------------------------------
   // ------------------------------------------------
   args: {},
-} satisfies Meta<typeof RadioInputs>;
+} satisfies Meta<typeof CoupleInputs>;
 
 export default meta;
 
@@ -18,6 +18,6 @@ type Story = StoryObj<typeof meta>;
 
 //
 
-export const Radios: Story = {
+export const Complex: Story = {
   args: {},
 };

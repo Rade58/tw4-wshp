@@ -14,8 +14,14 @@ export function RadioInputs(_props: PropsWithChildren) {
           Poor
         </label>
       </div>
-      <div className="mt-4 hidden group-has-[input[value='poor']:checked]:block">
-        Please tell us what went wrong
+      <div className="mt-4 hidden rounded bg-yellow-500 p-3 group-has-[input[value='poor']:checked]:block">
+        <span className="block text-sm font-medium">
+          Please tell us what went wrong
+        </span>
+        <textarea
+          rows={2}
+          className="mt-1 block w-full rounded border border-amber-700 text-sm"
+        ></textarea>
       </div>
     </div>
   );
