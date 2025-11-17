@@ -8,12 +8,21 @@ type Props = ComponentProps<"input"> & {
 export function CheckBox({
   label = "A very important Checkbox",
   id = "checkbox",
+
   ...props
 }: Props) {
   return (
-    <div className="rounded border bg-slate-200 p-4 outline-1 outline-offset-2 outline-sky-200 focus-within:bg-sky-300 focus-within:outline-indigo-700">
-      <input className="accent-indigo-800" type="checkbox" id={id} {...props} />
-      <label className="ml-2" htmlFor={id}>
+    <div className="rounded border bg-slate-200 p-4 outline-1 outline-offset-2 outline-sky-200 focus-within:bg-sky-300 focus-within:outline-indigo-700 has-checked:border-b-4 has-checked:border-b-indigo-700">
+      <input
+        className="peer accent-indigo-800"
+        type="checkbox"
+        id={id}
+        {...props}
+      />
+      <label
+        className="ml-2 decoration-1 peer-checked:line-through"
+        htmlFor={id}
+      >
         {label}
       </label>
     </div>

@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 
 // import { fn } from "storybook/test";
 
-import { CheckBox } from "./CheckBox";
+import { One } from "./One";
 
 const meta = {
-  title: "Components/Form/CheckBox",
-  component: CheckBox,
+  title: "2 :has chalenges/1",
+  component: One,
   //
   argTypes: {
     label: {
@@ -28,15 +28,17 @@ const meta = {
     checked: false,
   },
   //
-} satisfies Meta<typeof CheckBox>;
+} satisfies Meta<typeof One>;
 
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
 //
-export const Default: Story = {
+export const Checkbox: Story = {
   args: {
     checked: false,
+    label: "I agree to the terms",
+    id: "agree",
   },
 };
