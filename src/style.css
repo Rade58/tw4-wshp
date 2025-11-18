@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+/* let's say you have this color somwhere in your css */
+:root {
+  --very-important-brand-color: #1e40af;
+}
+
+/* you can do this to bring that color into tailwind land */
+
+@theme {
+  --color-brandfoo: var(--very-important-brand-color);
+}
