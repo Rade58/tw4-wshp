@@ -23,3 +23,35 @@ Both are cool because you can export all colors ac css custom properties that ar
 - [flexbox playground](https://tailwind-workshop.vercel.app/playgrounds/flex?boxes=3&height=600&width=w-20)
 - [grid playground](https://tailwind-workshop.vercel.app/playgrounds/grid?boxes=3&height=600&width=w-20)
 - [tailwind play](https://play.tailwindcss.com/)
+
+# Dark/Light mode for storybook (kind of) 
+
+(**Use chrome dev tools to switch dark or light mode, I needed to do this because I'm using dark mode on my os**)
+
+We are not using tailwind `@theme`
+
+Defined in preview file, in decoratos
+
+It is class based. `dark` class is added/removed from the preview element (elemnt where stories are nested) (elemnt with class `.sb-show-main`)
+
+Besides class adds `bg-slate-950` to background and `text-wite`
+
+In real world example we would define this in global css
+
+```css
+@custom-variant dark (&:where(.dark, .dark *));
+/* or */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+/* or*/
+@custom-variant dark (&:where([data-mode="dark"], [data-mode="dark"] *));
+```
+
+in css `*` means descendants or descendant selector, if you forgot
+
+# Color generators and other tools
+
+<https://cva.style/docs>
+
+<https://www.npmjs.com/package/tailwind-merge>
+
+<https://designrift.vercel.app/>
