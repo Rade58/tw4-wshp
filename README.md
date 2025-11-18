@@ -54,6 +54,8 @@ There is a lot about this. See [theme customization lesson](https://stevekinney.
 
 <https://cva.style/docs>
 
+<https://paletton.com/>
+
 <https://www.npmjs.com/package/tailwind-merge>
 
 <https://designrift.vercel.app/>
