@@ -17,3 +17,9 @@ I'm going to use it for generating colors for my theme:
 <https://uicolors.app/> 
 
 Both are cool because you can export all colors ac css custom properties that are tailwind 4 ready
+
+# Cool tools
+
+- [flexbox playground](https://tailwind-workshop.vercel.app/playgrounds/flex?boxes=3&height=600&width=w-20)
+- [grid playground](https://tailwind-workshop.vercel.app/playgrounds/grid?boxes=3&height=600&width=w-20)
+- [tailwind play](https://play.tailwindcss.com/)
