@@ -48,6 +48,8 @@ In real world example we would define this in global css
 
 in css `*` means descendants or descendant selector, if you forgot
 
+There is a lot about this. See [theme customization lesson](https://stevekinney.com/courses/tailwind/theme-customization) where there is powerfull section about **Building a Complete Design System**
+
 # Color generators and other tools
 
 <https://cva.style/docs>
@@ -55,3 +57,15 @@ in css `*` means descendants or descendant selector, if you forgot
 <https://www.npmjs.com/package/tailwind-merge>
 
 <https://designrift.vercel.app/>
+
+## More about transitions and animation with tailwind
+
+<https://stevekinney.com/courses/tailwind/tailwind-transition>
+
+There is a lot of cool animations on official docs: <https://tailwindcss.com/docs/animation>
+
+## @starting-style
+
+very cool
+
+<https://stevekinney.com/courses/tailwind/starting-style>
