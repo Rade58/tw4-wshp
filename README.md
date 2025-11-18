@@ -69,3 +69,7 @@ There is a lot of cool animations on official docs: <https://tailwindcss.com/doc
 very cool
 
 <https://stevekinney.com/courses/tailwind/starting-style>
+
+## About `OKLCH` color palette
+
+<https://stevekinney.com/courses/tailwind/oklch-colors>
